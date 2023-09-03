@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.description {
+.align-left {
   text-align: left;
   width: 60%;
   margin: 0 auto;
@@ -18,10 +18,4 @@
 
 .question-text {
   margin-left: 10px;
-}
-
-.questions {
-  text-align: left;
-  width: 60%;
-  margin: 0 auto;
 }

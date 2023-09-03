@@ -5,7 +5,7 @@ export function SurveyPage({ scores, handleChange }) {
     return <div>
         <h1>Spiritual Gifts Survey</h1>
         <h2>Directions</h2>
-        <div className="description">
+        <div className="align-left">
             This is not a test, so there are no wrong answers. The Spiritual Gifts Survey consists of 80 statements. Some items reflect concrete actions, other items are descriptive traits, and still others are statements of belief.<br />
             <ul>
                 <li>Select the one response you feel best characterizes yourself and place that number in the blank
@@ -26,7 +26,7 @@ export function SurveyPage({ scores, handleChange }) {
         </div>
         <br /><hr className="horizontal-line" /><br />
         <form>
-            <div className="questions">
+            <div className="align-left">
                 {questions.map((q) => (
                     <div key={q.id}>
                         <select

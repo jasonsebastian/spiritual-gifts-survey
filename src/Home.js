@@ -92,6 +92,27 @@ export function Home() {
                     {generateUrlInfo != "" && <div>{generateUrlInfo}</div>}
                     <br />
                     <button onClick={handleBack}>Back</button>
+                    <br /><br />
+                    <div>
+                        <hr className='horizontal-line' /><br />
+                        <h4 className='align-left'>Now that you have completed the survey, thoughtfully answer the following questions.</h4><br />
+                        <div className='align-left'>
+                            The gifts I have begun to discover in my life are:
+                            <ol>
+                                <li><input type="text" style={{ width: '100%' }} /></li>
+                                <li><input type="text" style={{ width: '100%' }} /></li>
+                                <li><input type="text" style={{ width: '100%' }} /></li>
+                            </ol>
+                            <ul>
+                                <li>After prayer and worship, I am beginning to sense that God wants me to use my spiritual gifts
+                                    to serve Christ’s body by <input type="text" />.</li>
+                                <li>I am not sure yet how God wants me to use my gifts to serve others. But I am committed to prayer and worship, seeking wisdom and opportunities to use the gifts I have received from God.</li>
+                            </ul>
+                            Ask God to help you know how He has gifted you for service and how you can begin to use this
+                            gift in ministry to others.
+                            <br /><br />
+                        </div>
+                    </div>
                 </div>
             ) : (
                 <div>
